@@ -46,16 +46,16 @@ conda install -c conda-forge paho-mqtt
 ```
 For GPU
 11. Check your device specs
-'''python
+```python
 nvidia-smi
-'''
+```
 12. Install the corresponding [GPU drivers](https://askubuntu.com/questions/1362970/problem-installing-nvidia-driver-on-ubuntu-20-04)
 13. Install tensorFlow
 ```python
 conda install -c anaconda tensorflow-gpu
 ```
 14. (Optional) upgrade your cudatoolkit and cudnn if needed. For Nvidia SMI 470 and Cuda version 11.4: 
-'''python
+```python
 conda install cudatoolkit=11.3.1 -c conda-forge
 conda install -c conda-forge cudnn=8.2.*
-'''
+```
